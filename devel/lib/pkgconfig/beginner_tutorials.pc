@@ -1,0 +1,8 @@
+prefix=/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/devel
+
+Name: beginner_tutorials
+Description: Description of beginner_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

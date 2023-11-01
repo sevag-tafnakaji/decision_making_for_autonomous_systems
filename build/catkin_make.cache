@@ -1,0 +1,2 @@
+beginner_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/devel -DCMAKE_INSTALL_PREFIX=/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/install -G Unix Makefiles
