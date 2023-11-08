@@ -131,7 +131,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build/gtest/cmake_install.cmake")
+  include("/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build/teleop_twist_keyboard/cmake_install.cmake")
   include("/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build/world_percept_assig/cmake_install.cmake")
 
 endif()
 
