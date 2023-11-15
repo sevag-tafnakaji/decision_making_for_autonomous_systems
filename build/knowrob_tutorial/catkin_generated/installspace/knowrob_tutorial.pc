@@ -1,0 +1,8 @@
+prefix=/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/install
+
+Name: knowrob_tutorial
+Description: Description of knowrob_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs rosprolog

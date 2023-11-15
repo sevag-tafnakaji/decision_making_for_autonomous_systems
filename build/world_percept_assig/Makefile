@@ -168,34 +168,94 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/map_generator_node.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/map_generator_node.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/map_generator_node.dir/rule
+world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-map_generator_node: world_percept_assig/CMakeFiles/map_generator_node.dir/rule
+actionlib_generate_messages_nodejs: world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
-.PHONY : map_generator_node
+.PHONY : actionlib_generate_messages_nodejs
 
 # fast build rule for target.
-map_generator_node/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/map_generator_node.dir/build.make world_percept_assig/CMakeFiles/map_generator_node.dir/build
-.PHONY : map_generator_node/fast
+actionlib_generate_messages_nodejs/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/direct_percept_node.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/direct_percept_node.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/direct_percept_node.dir/rule
+world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-direct_percept_node: world_percept_assig/CMakeFiles/direct_percept_node.dir/rule
+trajectory_msgs_generate_messages_eus: world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 
-.PHONY : direct_percept_node
+.PHONY : trajectory_msgs_generate_messages_eus
 
 # fast build rule for target.
-direct_percept_node/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/direct_percept_node.dir/build.make world_percept_assig/CMakeFiles/direct_percept_node.dir/build
-.PHONY : direct_percept_node/fast
+trajectory_msgs_generate_messages_eus/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+.PHONY : trajectory_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+gazebo_msgs_generate_messages_nodejs: world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : gazebo_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_nodejs/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+.PHONY : gazebo_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_cpp: world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_cpp: world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+
+.PHONY : actionlib_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_generate_messages_cpp/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+.PHONY : actionlib_generate_messages_cpp/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_py: world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 world_percept_assig/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
@@ -303,6 +363,21 @@ tf_generate_messages_cpp/fast:
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
+world_percept_assig/CMakeFiles/direct_percept_node.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/direct_percept_node.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/direct_percept_node.dir/rule
+
+# Convenience name for target.
+direct_percept_node: world_percept_assig/CMakeFiles/direct_percept_node.dir/rule
+
+.PHONY : direct_percept_node
+
+# fast build rule for target.
+direct_percept_node/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/direct_percept_node.dir/build.make world_percept_assig/CMakeFiles/direct_percept_node.dir/build
+.PHONY : direct_percept_node/fast
+
+# Convenience name for target.
 world_percept_assig/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
 	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 .PHONY : world_percept_assig/CMakeFiles/std_srvs_generate_messages_py.dir/rule
@@ -318,94 +393,139 @@ std_srvs_generate_messages_py/fast:
 .PHONY : std_srvs_generate_messages_py/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/rule
+world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/rule
 
 # Convenience name for target.
-world_percept_assig_generate_messages: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/rule
+world_percept_assig_generate_messages_py: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/rule
 
-.PHONY : world_percept_assig_generate_messages
+.PHONY : world_percept_assig_generate_messages_py
 
 # fast build rule for target.
-world_percept_assig_generate_messages/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/build
-.PHONY : world_percept_assig_generate_messages/fast
+world_percept_assig_generate_messages_py/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/build
+.PHONY : world_percept_assig_generate_messages_py/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/rule
+world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-world_percept_assig_generate_messages_eus: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/rule
+std_srvs_generate_messages_eus: world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 
-.PHONY : world_percept_assig_generate_messages_eus
+.PHONY : std_srvs_generate_messages_eus
 
 # fast build rule for target.
-world_percept_assig_generate_messages_eus/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/build
-.PHONY : world_percept_assig_generate_messages_eus/fast
+std_srvs_generate_messages_eus/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+.PHONY : std_srvs_generate_messages_eus/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_lisp: world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+tf_generate_messages_lisp: world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
-.PHONY : geometry_msgs_generate_messages_lisp
+.PHONY : tf_generate_messages_lisp
 
 # fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
+tf_generate_messages_lisp/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/rule
+world_percept_assig/CMakeFiles/percept_node.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/percept_node.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/percept_node.dir/rule
 
 # Convenience name for target.
-world_percept_assig_gencpp: world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/rule
+percept_node: world_percept_assig/CMakeFiles/percept_node.dir/rule
 
-.PHONY : world_percept_assig_gencpp
+.PHONY : percept_node
 
 # fast build rule for target.
-world_percept_assig_gencpp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/build
-.PHONY : world_percept_assig_gencpp/fast
+percept_node/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/percept_node.dir/build.make world_percept_assig/CMakeFiles/percept_node.dir/build
+.PHONY : percept_node/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/rule
+world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-world_percept_assig_genlisp: world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/rule
+sensor_msgs_generate_messages_nodejs: world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
-.PHONY : world_percept_assig_genlisp
+.PHONY : sensor_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-world_percept_assig_genlisp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/build
-.PHONY : world_percept_assig_genlisp/fast
+sensor_msgs_generate_messages_nodejs/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+world_percept_assig/CMakeFiles/world_percept_assig.owl.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig.owl.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig.owl.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_cpp: world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+world_percept_assig.owl: world_percept_assig/CMakeFiles/world_percept_assig.owl.dir/rule
 
-.PHONY : sensor_msgs_generate_messages_cpp
+.PHONY : world_percept_assig.owl
 
 # fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
+world_percept_assig.owl/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig.owl.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig.owl.dir/build
+.PHONY : world_percept_assig.owl/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/rule
+
+# Convenience name for target.
+world_percept_assig_geneus: world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/rule
+
+.PHONY : world_percept_assig_geneus
+
+# fast build rule for target.
+world_percept_assig_geneus/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/build
+.PHONY : world_percept_assig_geneus/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_eus: world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+
+.PHONY : actionlib_generate_messages_eus
+
+# fast build rule for target.
+actionlib_generate_messages_eus/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/build
+.PHONY : actionlib_generate_messages_eus/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+trajectory_msgs_generate_messages_py: world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+
+.PHONY : trajectory_msgs_generate_messages_py
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_py/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_SetInitTiagoPose.dir/rule:
@@ -438,259 +558,34 @@ world_percept_assig_generate_messages_cpp/fast:
 .PHONY : world_percept_assig_generate_messages_cpp/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_eus: world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+std_srvs_generate_messages_nodejs: world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
-.PHONY : geometry_msgs_generate_messages_eus
+.PHONY : std_srvs_generate_messages_nodejs
 
 # fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
+std_srvs_generate_messages_nodejs/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_nodejs: world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+gazebo_msgs_generate_messages_eus: world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 
-.PHONY : sensor_msgs_generate_messages_nodejs
+.PHONY : gazebo_msgs_generate_messages_eus
 
 # fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/rule
-
-# Convenience name for target.
-world_percept_assig_geneus: world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/rule
-
-.PHONY : world_percept_assig_geneus
-
-# fast build rule for target.
-world_percept_assig_geneus/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/build
-.PHONY : world_percept_assig_geneus/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/percept_node.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/percept_node.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/percept_node.dir/rule
-
-# Convenience name for target.
-percept_node: world_percept_assig/CMakeFiles/percept_node.dir/rule
-
-.PHONY : percept_node
-
-# fast build rule for target.
-percept_node/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/percept_node.dir/build.make world_percept_assig/CMakeFiles/percept_node.dir/build
-.PHONY : percept_node/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_lisp: world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-world_percept_assig_generate_messages_nodejs: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/rule
-
-.PHONY : world_percept_assig_generate_messages_nodejs
-
-# fast build rule for target.
-world_percept_assig_generate_messages_nodejs/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/build
-.PHONY : world_percept_assig_generate_messages_nodejs/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_nodejs: world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_nodejs/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
-.PHONY : gazebo_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_eus: world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_eus
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_eus/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-.PHONY : trajectory_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_nodejs: world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_eus: world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
-
-.PHONY : std_srvs_generate_messages_eus
-
-# fast build rule for target.
-std_srvs_generate_messages_eus/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-.PHONY : std_srvs_generate_messages_eus/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/rule
-
-# Convenience name for target.
-world_percept_assig_generate_messages_py: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/rule
-
-.PHONY : world_percept_assig_generate_messages_py
-
-# fast build rule for target.
-world_percept_assig_generate_messages_py/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/build
-.PHONY : world_percept_assig_generate_messages_py/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_py: world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_py
-
-# fast build rule for target.
-tf2_msgs_generate_messages_py/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-.PHONY : tf2_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_lisp: world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_lisp
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_lisp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
-.PHONY : gazebo_msgs_generate_messages_lisp/fast
+gazebo_msgs_generate_messages_eus/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+.PHONY : gazebo_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
@@ -723,51 +618,6 @@ actionlib_generate_messages_py/fast:
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_eus: world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_eus
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_eus/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
-.PHONY : gazebo_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_nodejs: world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_srvs_generate_messages_nodejs
-
-# fast build rule for target.
-std_srvs_generate_messages_nodejs/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-.PHONY : std_srvs_generate_messages_nodejs/fast
-
-# Convenience name for target.
 world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
 	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 .PHONY : world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
@@ -783,79 +633,19 @@ trajectory_msgs_generate_messages_lisp/fast:
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-actionlib_generate_messages_cpp: world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+sensor_msgs_generate_messages_cpp: world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
-.PHONY : actionlib_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
 
 # fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_py: world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_py: world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_eus: world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-.PHONY : actionlib_generate_messages_eus
-
-# fast build rule for target.
-actionlib_generate_messages_eus/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/build
-.PHONY : actionlib_generate_messages_eus/fast
-
-# Convenience name for target.
-world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_cpp: world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
+sensor_msgs_generate_messages_cpp/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 world_percept_assig/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
@@ -873,6 +663,81 @@ actionlib_generate_messages_lisp/fast:
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
+world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_eus: world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/rule
+
+# Convenience name for target.
+world_percept_assig_gencpp: world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/rule
+
+.PHONY : world_percept_assig_gencpp
+
+# fast build rule for target.
+world_percept_assig_gencpp/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/build
+.PHONY : world_percept_assig_gencpp/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/rule
+
+# Convenience name for target.
+world_percept_assig_genlisp: world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/rule
+
+.PHONY : world_percept_assig_genlisp
+
+# fast build rule for target.
+world_percept_assig_genlisp/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/build
+.PHONY : world_percept_assig_genlisp/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/map_generator_node.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/map_generator_node.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/map_generator_node.dir/rule
+
+# Convenience name for target.
+map_generator_node: world_percept_assig/CMakeFiles/map_generator_node.dir/rule
+
+.PHONY : map_generator_node
+
+# fast build rule for target.
+map_generator_node/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/map_generator_node.dir/build.make world_percept_assig/CMakeFiles/map_generator_node.dir/build
+.PHONY : map_generator_node/fast
+
+# Convenience name for target.
 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
 	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
@@ -888,21 +753,6 @@ actionlib_msgs_generate_messages_eus/fast:
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-.PHONY : world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_nodejs: world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-.PHONY : actionlib_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
 world_percept_assig/CMakeFiles/tf_generate_messages_py.dir/rule:
 	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : world_percept_assig/CMakeFiles/tf_generate_messages_py.dir/rule
@@ -916,6 +766,21 @@ tf_generate_messages_py: world_percept_assig/CMakeFiles/tf_generate_messages_py.
 tf_generate_messages_py/fast:
 	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/tf_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_nodejs: world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_nodejs/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+.PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
@@ -1008,6 +873,36 @@ tf2_msgs_generate_messages_nodejs/fast:
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+gazebo_msgs_generate_messages_lisp: world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : gazebo_msgs_generate_messages_lisp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_lisp/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+.PHONY : gazebo_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+tf2_msgs_generate_messages_py: world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+
+.PHONY : tf2_msgs_generate_messages_py
+
+# fast build rule for target.
+tf2_msgs_generate_messages_py/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+.PHONY : tf2_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/rule:
 	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/rule
 .PHONY : world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/rule
@@ -1021,6 +916,21 @@ _world_percept_assig_generate_messages_check_deps_UpdateObjectList: world_percep
 _world_percept_assig_generate_messages_check_deps_UpdateObjectList/fast:
 	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/build.make world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/build
 .PHONY : _world_percept_assig_generate_messages_check_deps_UpdateObjectList/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+world_percept_assig_generate_messages_nodejs: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/rule
+
+.PHONY : world_percept_assig_generate_messages_nodejs
+
+# fast build rule for target.
+world_percept_assig_generate_messages_nodejs/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/build
+.PHONY : world_percept_assig_generate_messages_nodejs/fast
 
 # Convenience name for target.
 world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
@@ -1051,6 +961,66 @@ world_percept_assig_gennodejs: world_percept_assig/CMakeFiles/world_percept_assi
 world_percept_assig_gennodejs/fast:
 	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_gennodejs.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_gennodejs.dir/build
 .PHONY : world_percept_assig_gennodejs/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_owl.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_owl.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_owl.dir/rule
+
+# Convenience name for target.
+world_percept_assig_generate_messages_owl: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_owl.dir/rule
+
+.PHONY : world_percept_assig_generate_messages_owl
+
+# fast build rule for target.
+world_percept_assig_generate_messages_owl/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_owl.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_owl.dir/build
+.PHONY : world_percept_assig_generate_messages_owl/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/rule
+
+# Convenience name for target.
+world_percept_assig_generate_messages: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/rule
+
+.PHONY : world_percept_assig_generate_messages
+
+# fast build rule for target.
+world_percept_assig_generate_messages/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/build
+.PHONY : world_percept_assig_generate_messages/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+world_percept_assig_generate_messages_eus: world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/rule
+
+.PHONY : world_percept_assig_generate_messages_eus
+
+# fast build rule for target.
+world_percept_assig_generate_messages_eus/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/build
+.PHONY : world_percept_assig_generate_messages_eus/fast
+
+# Convenience name for target.
+world_percept_assig/CMakeFiles/world_percept_assig_genowl.dir/rule:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f CMakeFiles/Makefile2 world_percept_assig/CMakeFiles/world_percept_assig_genowl.dir/rule
+.PHONY : world_percept_assig/CMakeFiles/world_percept_assig_genowl.dir/rule
+
+# Convenience name for target.
+world_percept_assig_genowl: world_percept_assig/CMakeFiles/world_percept_assig_genowl.dir/rule
+
+.PHONY : world_percept_assig_genowl
+
+# fast build rule for target.
+world_percept_assig_genowl/fast:
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build && $(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_genowl.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_genowl.dir/build
+.PHONY : world_percept_assig_genowl/fast
 
 # Convenience name for target.
 world_percept_assig/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
@@ -1175,8 +1145,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... map_generator_node"
-	@echo "... direct_percept_node"
+	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... gazebo_msgs_generate_messages_nodejs"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... tf_generate_messages_nodejs"
 	@echo "... gazebo_msgs_generate_messages_cpp"
 	@echo "... tf_generate_messages_eus"
@@ -1184,57 +1158,51 @@ help:
 	@echo "... gazebo_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... tf_generate_messages_cpp"
+	@echo "... direct_percept_node"
 	@echo "... std_srvs_generate_messages_py"
-	@echo "... world_percept_assig_generate_messages"
-	@echo "... world_percept_assig_generate_messages_eus"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... world_percept_assig_gencpp"
-	@echo "... world_percept_assig_genlisp"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... _world_percept_assig_generate_messages_check_deps_SetInitTiagoPose"
-	@echo "... world_percept_assig_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... world_percept_assig_generate_messages_py"
+	@echo "... std_srvs_generate_messages_eus"
+	@echo "... tf_generate_messages_lisp"
+	@echo "... percept_node"
 	@echo "... edit_cache"
 	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... world_percept_assig.owl"
 	@echo "... world_percept_assig_geneus"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... percept_node"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... world_percept_assig_generate_messages_nodejs"
-	@echo "... gazebo_msgs_generate_messages_nodejs"
-	@echo "... trajectory_msgs_generate_messages_eus"
-	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... std_srvs_generate_messages_eus"
-	@echo "... world_percept_assig_generate_messages_py"
-	@echo "... tf2_msgs_generate_messages_py"
-	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... actionlib_generate_messages_eus"
+	@echo "... trajectory_msgs_generate_messages_py"
+	@echo "... _world_percept_assig_generate_messages_check_deps_SetInitTiagoPose"
+	@echo "... world_percept_assig_generate_messages_cpp"
+	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_eus"
 	@echo "... trajectory_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_py"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... gazebo_msgs_generate_messages_eus"
-	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_py"
-	@echo "... actionlib_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... world_percept_assig_gencpp"
+	@echo "... world_percept_assig_genlisp"
+	@echo "... map_generator_node"
 	@echo "... actionlib_msgs_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... tf_generate_messages_py"
+	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_eus"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... world_percept_assig_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... _world_percept_assig_generate_messages_check_deps_UpdateObjectList"
+	@echo "... world_percept_assig_generate_messages_nodejs"
 	@echo "... trajectory_msgs_generate_messages_nodejs"
 	@echo "... world_percept_assig_gennodejs"
+	@echo "... world_percept_assig_generate_messages_owl"
+	@echo "... world_percept_assig_generate_messages"
+	@echo "... world_percept_assig_generate_messages_eus"
+	@echo "... world_percept_assig_genowl"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... world_percept_assig_genpy"
 	@echo "... src/direct_percept_node.o"

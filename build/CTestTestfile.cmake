@@ -7,4 +7,5 @@
 subdirs("gtest")
 subdirs("teleop_twist_keyboard")
 subdirs("beginner_tutorials")
+subdirs("knowrob_tutorial")
 subdirs("world_percept_assig")

@@ -493,30 +493,316 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named map_generator_node
+# Target rules for targets named queries_node
 
 # Build rule for target.
-map_generator_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_generator_node
-.PHONY : map_generator_node
+queries_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queries_node
+.PHONY : queries_node
 
 # fast build rule for target.
-map_generator_node/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/map_generator_node.dir/build.make world_percept_assig/CMakeFiles/map_generator_node.dir/build
-.PHONY : map_generator_node/fast
+queries_node/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/queries_node.dir/build.make knowrob_tutorial/CMakeFiles/queries_node.dir/build
+.PHONY : queries_node/fast
 
 #=============================================================================
-# Target rules for targets named direct_percept_node
+# Target rules for targets named geometry_msgs_generate_messages_lisp
 
 # Build rule for target.
-direct_percept_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 direct_percept_node
-.PHONY : direct_percept_node
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
 
 # fast build rule for target.
-direct_percept_node/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/direct_percept_node.dir/build.make world_percept_assig/CMakeFiles/direct_percept_node.dir/build
-.PHONY : direct_percept_node/fast
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_eus
+
+# Build rule for target.
+geometry_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named json_prolog_msgs_generate_messages_lisp
+
+# Build rule for target.
+json_prolog_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 json_prolog_msgs_generate_messages_lisp
+.PHONY : json_prolog_msgs_generate_messages_lisp
+
+# fast build rule for target.
+json_prolog_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_lisp.dir/build.make knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_lisp.dir/build
+.PHONY : json_prolog_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named json_prolog_msgs_generate_messages_nodejs
+
+# Build rule for target.
+json_prolog_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 json_prolog_msgs_generate_messages_nodejs
+.PHONY : json_prolog_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+json_prolog_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_nodejs.dir/build.make knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_nodejs.dir/build
+.PHONY : json_prolog_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_py
+
+# Build rule for target.
+geometry_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named json_prolog_msgs_generate_messages_owl
+
+# Build rule for target.
+json_prolog_msgs_generate_messages_owl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 json_prolog_msgs_generate_messages_owl
+.PHONY : json_prolog_msgs_generate_messages_owl
+
+# fast build rule for target.
+json_prolog_msgs_generate_messages_owl/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_owl.dir/build.make knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_owl.dir/build
+.PHONY : json_prolog_msgs_generate_messages_owl/fast
+
+#=============================================================================
+# Target rules for targets named rosprolog_generate_messages_eus
+
+# Build rule for target.
+rosprolog_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosprolog_generate_messages_eus
+.PHONY : rosprolog_generate_messages_eus
+
+# fast build rule for target.
+rosprolog_generate_messages_eus/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_eus.dir/build.make knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_eus.dir/build
+.PHONY : rosprolog_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named rosprolog_generate_messages_owl
+
+# Build rule for target.
+rosprolog_generate_messages_owl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosprolog_generate_messages_owl
+.PHONY : rosprolog_generate_messages_owl
+
+# fast build rule for target.
+rosprolog_generate_messages_owl/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_owl.dir/build.make knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_owl.dir/build
+.PHONY : rosprolog_generate_messages_owl/fast
+
+#=============================================================================
+# Target rules for targets named rosprolog_generate_messages_lisp
+
+# Build rule for target.
+rosprolog_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosprolog_generate_messages_lisp
+.PHONY : rosprolog_generate_messages_lisp
+
+# fast build rule for target.
+rosprolog_generate_messages_lisp/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_lisp.dir/build.make knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_lisp.dir/build
+.PHONY : rosprolog_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rosprolog_generate_messages_cpp
+
+# Build rule for target.
+rosprolog_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosprolog_generate_messages_cpp
+.PHONY : rosprolog_generate_messages_cpp
+
+# fast build rule for target.
+rosprolog_generate_messages_cpp/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_cpp.dir/build.make knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_cpp.dir/build
+.PHONY : rosprolog_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named json_prolog_msgs_generate_messages_py
+
+# Build rule for target.
+json_prolog_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 json_prolog_msgs_generate_messages_py
+.PHONY : json_prolog_msgs_generate_messages_py
+
+# fast build rule for target.
+json_prolog_msgs_generate_messages_py/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_py.dir/build.make knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_py.dir/build
+.PHONY : json_prolog_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named rosprolog_generate_messages_py
+
+# Build rule for target.
+rosprolog_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosprolog_generate_messages_py
+.PHONY : rosprolog_generate_messages_py
+
+# fast build rule for target.
+rosprolog_generate_messages_py/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_py.dir/build.make knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_py.dir/build
+.PHONY : rosprolog_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named json_prolog_msgs_generate_messages_cpp
+
+# Build rule for target.
+json_prolog_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 json_prolog_msgs_generate_messages_cpp
+.PHONY : json_prolog_msgs_generate_messages_cpp
+
+# fast build rule for target.
+json_prolog_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_cpp.dir/build.make knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_cpp.dir/build
+.PHONY : json_prolog_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named rosprolog_generate_messages_nodejs
+
+# Build rule for target.
+rosprolog_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosprolog_generate_messages_nodejs
+.PHONY : rosprolog_generate_messages_nodejs
+
+# fast build rule for target.
+rosprolog_generate_messages_nodejs/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_nodejs.dir/build.make knowrob_tutorial/CMakeFiles/rosprolog_generate_messages_nodejs.dir/build
+.PHONY : rosprolog_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named json_prolog_msgs_generate_messages_eus
+
+# Build rule for target.
+json_prolog_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 json_prolog_msgs_generate_messages_eus
+.PHONY : json_prolog_msgs_generate_messages_eus
+
+# fast build rule for target.
+json_prolog_msgs_generate_messages_eus/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_eus.dir/build.make knowrob_tutorial/CMakeFiles/json_prolog_msgs_generate_messages_eus.dir/build
+.PHONY : json_prolog_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_nodejs
+
+# Build rule for target.
+geometry_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+geometry_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+.PHONY : geometry_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make knowrob_tutorial/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_nodejs
+
+# Build rule for target.
+actionlib_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_nodejs
+.PHONY : actionlib_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_generate_messages_nodejs/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_eus
+
+# Build rule for target.
+trajectory_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_eus
+.PHONY : trajectory_msgs_generate_messages_eus
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_eus/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+.PHONY : trajectory_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_nodejs
+
+# Build rule for target.
+gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_nodejs
+.PHONY : gazebo_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+.PHONY : gazebo_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_cpp
+
+# Build rule for target.
+actionlib_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_cpp
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_cpp
+
+# Build rule for target.
+actionlib_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_cpp
+.PHONY : actionlib_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_generate_messages_cpp/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+.PHONY : actionlib_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_py
+
+# Build rule for target.
+actionlib_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_py
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named tf_generate_messages_nodejs
@@ -610,6 +896,19 @@ tf_generate_messages_cpp/fast:
 .PHONY : tf_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named direct_percept_node
+
+# Build rule for target.
+direct_percept_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 direct_percept_node
+.PHONY : direct_percept_node
+
+# fast build rule for target.
+direct_percept_node/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/direct_percept_node.dir/build.make world_percept_assig/CMakeFiles/direct_percept_node.dir/build
+.PHONY : direct_percept_node/fast
+
+#=============================================================================
 # Target rules for targets named std_srvs_generate_messages_py
 
 # Build rule for target.
@@ -623,82 +922,121 @@ std_srvs_generate_messages_py/fast:
 .PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named world_percept_assig_generate_messages
+# Target rules for targets named world_percept_assig_generate_messages_py
 
 # Build rule for target.
-world_percept_assig_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages
-.PHONY : world_percept_assig_generate_messages
+world_percept_assig_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages_py
+.PHONY : world_percept_assig_generate_messages_py
 
 # fast build rule for target.
-world_percept_assig_generate_messages/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/build
-.PHONY : world_percept_assig_generate_messages/fast
+world_percept_assig_generate_messages_py/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/build
+.PHONY : world_percept_assig_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named world_percept_assig_generate_messages_eus
+# Target rules for targets named std_srvs_generate_messages_eus
 
 # Build rule for target.
-world_percept_assig_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages_eus
-.PHONY : world_percept_assig_generate_messages_eus
+std_srvs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
+.PHONY : std_srvs_generate_messages_eus
 
 # fast build rule for target.
-world_percept_assig_generate_messages_eus/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/build
-.PHONY : world_percept_assig_generate_messages_eus/fast
+std_srvs_generate_messages_eus/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+.PHONY : std_srvs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_lisp
+# Target rules for targets named tf_generate_messages_lisp
 
 # Build rule for target.
-geometry_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
-.PHONY : geometry_msgs_generate_messages_lisp
+tf_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
+.PHONY : tf_generate_messages_lisp
 
 # fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
+tf_generate_messages_lisp/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named world_percept_assig_gencpp
+# Target rules for targets named percept_node
 
 # Build rule for target.
-world_percept_assig_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_gencpp
-.PHONY : world_percept_assig_gencpp
+percept_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 percept_node
+.PHONY : percept_node
 
 # fast build rule for target.
-world_percept_assig_gencpp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/build
-.PHONY : world_percept_assig_gencpp/fast
+percept_node/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/percept_node.dir/build.make world_percept_assig/CMakeFiles/percept_node.dir/build
+.PHONY : percept_node/fast
 
 #=============================================================================
-# Target rules for targets named world_percept_assig_genlisp
+# Target rules for targets named sensor_msgs_generate_messages_nodejs
 
 # Build rule for target.
-world_percept_assig_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_genlisp
-.PHONY : world_percept_assig_genlisp
+sensor_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
+.PHONY : sensor_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-world_percept_assig_genlisp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/build
-.PHONY : world_percept_assig_genlisp/fast
+sensor_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_cpp
+# Target rules for targets named world_percept_assig.owl
 
 # Build rule for target.
-sensor_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
-.PHONY : sensor_msgs_generate_messages_cpp
+world_percept_assig.owl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig.owl
+.PHONY : world_percept_assig.owl
 
 # fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
+world_percept_assig.owl/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig.owl.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig.owl.dir/build
+.PHONY : world_percept_assig.owl/fast
+
+#=============================================================================
+# Target rules for targets named world_percept_assig_geneus
+
+# Build rule for target.
+world_percept_assig_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_geneus
+.PHONY : world_percept_assig_geneus
+
+# fast build rule for target.
+world_percept_assig_geneus/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/build
+.PHONY : world_percept_assig_geneus/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_eus
+
+# Build rule for target.
+actionlib_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_eus
+.PHONY : actionlib_generate_messages_eus
+
+# fast build rule for target.
+actionlib_generate_messages_eus/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/build
+.PHONY : actionlib_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_py
+
+# Build rule for target.
+trajectory_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
+.PHONY : trajectory_msgs_generate_messages_py
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_py/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named _world_percept_assig_generate_messages_check_deps_SetInitTiagoPose
@@ -727,225 +1065,30 @@ world_percept_assig_generate_messages_cpp/fast:
 .PHONY : world_percept_assig_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_eus
+# Target rules for targets named std_srvs_generate_messages_nodejs
 
 # Build rule for target.
-geometry_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
-.PHONY : geometry_msgs_generate_messages_eus
+std_srvs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
+.PHONY : std_srvs_generate_messages_nodejs
 
 # fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
+std_srvs_generate_messages_nodejs/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_nodejs
+# Target rules for targets named gazebo_msgs_generate_messages_eus
 
 # Build rule for target.
-sensor_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
-.PHONY : sensor_msgs_generate_messages_nodejs
+gazebo_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_eus
+.PHONY : gazebo_msgs_generate_messages_eus
 
 # fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_eus
-
-# Build rule for target.
-sensor_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_lisp
-
-# Build rule for target.
-sensor_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named world_percept_assig_geneus
-
-# Build rule for target.
-world_percept_assig_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_geneus
-.PHONY : world_percept_assig_geneus
-
-# fast build rule for target.
-world_percept_assig_geneus/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_geneus.dir/build
-.PHONY : world_percept_assig_geneus/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_py
-
-# Build rule for target.
-geometry_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named percept_node
-
-# Build rule for target.
-percept_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 percept_node
-.PHONY : percept_node
-
-# fast build rule for target.
-percept_node/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/percept_node.dir/build.make world_percept_assig/CMakeFiles/percept_node.dir/build
-.PHONY : percept_node/fast
-
-#=============================================================================
-# Target rules for targets named tf_generate_messages_lisp
-
-# Build rule for target.
-tf_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_cpp
-
-# Build rule for target.
-geometry_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named world_percept_assig_generate_messages_nodejs
-
-# Build rule for target.
-world_percept_assig_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages_nodejs
-.PHONY : world_percept_assig_generate_messages_nodejs
-
-# fast build rule for target.
-world_percept_assig_generate_messages_nodejs/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/build
-.PHONY : world_percept_assig_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_msgs_generate_messages_nodejs
-
-# Build rule for target.
-gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_nodejs
-.PHONY : gazebo_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
-.PHONY : gazebo_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_eus
-
-# Build rule for target.
-trajectory_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_eus
-.PHONY : trajectory_msgs_generate_messages_eus
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_eus/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-.PHONY : trajectory_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_generate_messages_nodejs
-
-# Build rule for target.
-actionlib_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_nodejs
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_eus
-
-# Build rule for target.
-std_srvs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
-.PHONY : std_srvs_generate_messages_eus
-
-# fast build rule for target.
-std_srvs_generate_messages_eus/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-.PHONY : std_srvs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named world_percept_assig_generate_messages_py
-
-# Build rule for target.
-world_percept_assig_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages_py
-.PHONY : world_percept_assig_generate_messages_py
-
-# fast build rule for target.
-world_percept_assig_generate_messages_py/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_py.dir/build
-.PHONY : world_percept_assig_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named tf2_msgs_generate_messages_py
-
-# Build rule for target.
-tf2_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_py
-.PHONY : tf2_msgs_generate_messages_py
-
-# fast build rule for target.
-tf2_msgs_generate_messages_py/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-.PHONY : tf2_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_msgs_generate_messages_lisp
-
-# Build rule for target.
-gazebo_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_lisp
-.PHONY : gazebo_msgs_generate_messages_lisp
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
-.PHONY : gazebo_msgs_generate_messages_lisp/fast
+gazebo_msgs_generate_messages_eus/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+.PHONY : gazebo_msgs_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named trajectory_msgs_generate_messages_cpp
@@ -974,45 +1117,6 @@ actionlib_generate_messages_py/fast:
 .PHONY : actionlib_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_nodejs
-
-# Build rule for target.
-geometry_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_msgs_generate_messages_eus
-
-# Build rule for target.
-gazebo_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_eus
-.PHONY : gazebo_msgs_generate_messages_eus
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_eus/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
-.PHONY : gazebo_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_nodejs
-
-# Build rule for target.
-std_srvs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
-.PHONY : std_srvs_generate_messages_nodejs
-
-# fast build rule for target.
-std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-.PHONY : std_srvs_generate_messages_nodejs/fast
-
-#=============================================================================
 # Target rules for targets named trajectory_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -1026,69 +1130,17 @@ trajectory_msgs_generate_messages_lisp/fast:
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named actionlib_generate_messages_cpp
+# Target rules for targets named sensor_msgs_generate_messages_cpp
 
 # Build rule for target.
-actionlib_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_cpp
-.PHONY : actionlib_generate_messages_cpp
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
 
 # fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_msgs_generate_messages_py
-
-# Build rule for target.
-actionlib_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_py
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_py
-
-# Build rule for target.
-trajectory_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_generate_messages_eus
-
-# Build rule for target.
-actionlib_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_eus
-.PHONY : actionlib_generate_messages_eus
-
-# fast build rule for target.
-actionlib_generate_messages_eus/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/actionlib_generate_messages_eus.dir/build
-.PHONY : actionlib_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_msgs_generate_messages_cpp
-
-# Build rule for target.
-actionlib_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_cpp
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_generate_messages_lisp
@@ -1104,6 +1156,71 @@ actionlib_generate_messages_lisp/fast:
 .PHONY : actionlib_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named world_percept_assig_gencpp
+
+# Build rule for target.
+world_percept_assig_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_gencpp
+.PHONY : world_percept_assig_gencpp
+
+# fast build rule for target.
+world_percept_assig_gencpp/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_gencpp.dir/build
+.PHONY : world_percept_assig_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named world_percept_assig_genlisp
+
+# Build rule for target.
+world_percept_assig_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_genlisp
+.PHONY : world_percept_assig_genlisp
+
+# fast build rule for target.
+world_percept_assig_genlisp/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_genlisp.dir/build
+.PHONY : world_percept_assig_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named map_generator_node
+
+# Build rule for target.
+map_generator_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 map_generator_node
+.PHONY : map_generator_node
+
+# fast build rule for target.
+map_generator_node/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/map_generator_node.dir/build.make world_percept_assig/CMakeFiles/map_generator_node.dir/build
+.PHONY : map_generator_node/fast
+
+#=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -1117,19 +1234,6 @@ actionlib_msgs_generate_messages_eus/fast:
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named actionlib_msgs_generate_messages_nodejs
-
-# Build rule for target.
-actionlib_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_nodejs
-.PHONY : actionlib_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-.PHONY : actionlib_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
 # Target rules for targets named tf_generate_messages_py
 
 # Build rule for target.
@@ -1141,6 +1245,19 @@ tf_generate_messages_py: cmake_check_build_system
 tf_generate_messages_py/fast:
 	$(MAKE) -f world_percept_assig/CMakeFiles/tf_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_nodejs
+
+# Build rule for target.
+actionlib_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_nodejs
+.PHONY : actionlib_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+.PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_lisp
@@ -1221,6 +1338,32 @@ tf2_msgs_generate_messages_nodejs/fast:
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_lisp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_lisp
+.PHONY : gazebo_msgs_generate_messages_lisp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make world_percept_assig/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+.PHONY : gazebo_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named tf2_msgs_generate_messages_py
+
+# Build rule for target.
+tf2_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_py
+.PHONY : tf2_msgs_generate_messages_py
+
+# fast build rule for target.
+tf2_msgs_generate_messages_py/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make world_percept_assig/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+.PHONY : tf2_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named _world_percept_assig_generate_messages_check_deps_UpdateObjectList
 
 # Build rule for target.
@@ -1232,6 +1375,19 @@ _world_percept_assig_generate_messages_check_deps_UpdateObjectList: cmake_check_
 _world_percept_assig_generate_messages_check_deps_UpdateObjectList/fast:
 	$(MAKE) -f world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/build.make world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/build
 .PHONY : _world_percept_assig_generate_messages_check_deps_UpdateObjectList/fast
+
+#=============================================================================
+# Target rules for targets named world_percept_assig_generate_messages_nodejs
+
+# Build rule for target.
+world_percept_assig_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages_nodejs
+.PHONY : world_percept_assig_generate_messages_nodejs
+
+# fast build rule for target.
+world_percept_assig_generate_messages_nodejs/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_nodejs.dir/build
+.PHONY : world_percept_assig_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named trajectory_msgs_generate_messages_nodejs
@@ -1258,6 +1414,58 @@ world_percept_assig_gennodejs: cmake_check_build_system
 world_percept_assig_gennodejs/fast:
 	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_gennodejs.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_gennodejs.dir/build
 .PHONY : world_percept_assig_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named world_percept_assig_generate_messages_owl
+
+# Build rule for target.
+world_percept_assig_generate_messages_owl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages_owl
+.PHONY : world_percept_assig_generate_messages_owl
+
+# fast build rule for target.
+world_percept_assig_generate_messages_owl/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_owl.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_owl.dir/build
+.PHONY : world_percept_assig_generate_messages_owl/fast
+
+#=============================================================================
+# Target rules for targets named world_percept_assig_generate_messages
+
+# Build rule for target.
+world_percept_assig_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages
+.PHONY : world_percept_assig_generate_messages
+
+# fast build rule for target.
+world_percept_assig_generate_messages/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages.dir/build
+.PHONY : world_percept_assig_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named world_percept_assig_generate_messages_eus
+
+# Build rule for target.
+world_percept_assig_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_generate_messages_eus
+.PHONY : world_percept_assig_generate_messages_eus
+
+# fast build rule for target.
+world_percept_assig_generate_messages_eus/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_generate_messages_eus.dir/build
+.PHONY : world_percept_assig_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named world_percept_assig_genowl
+
+# Build rule for target.
+world_percept_assig_genowl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 world_percept_assig_genowl
+.PHONY : world_percept_assig_genowl
+
+# fast build rule for target.
+world_percept_assig_genowl/fast:
+	$(MAKE) -f world_percept_assig/CMakeFiles/world_percept_assig_genowl.dir/build.make world_percept_assig/CMakeFiles/world_percept_assig_genowl.dir/build
+.PHONY : world_percept_assig_genowl/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_lisp
@@ -1323,8 +1531,30 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... map_generator_node"
-	@echo "... direct_percept_node"
+	@echo "... queries_node"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... json_prolog_msgs_generate_messages_lisp"
+	@echo "... json_prolog_msgs_generate_messages_nodejs"
+	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... json_prolog_msgs_generate_messages_owl"
+	@echo "... rosprolog_generate_messages_eus"
+	@echo "... rosprolog_generate_messages_owl"
+	@echo "... rosprolog_generate_messages_lisp"
+	@echo "... rosprolog_generate_messages_cpp"
+	@echo "... json_prolog_msgs_generate_messages_py"
+	@echo "... rosprolog_generate_messages_py"
+	@echo "... json_prolog_msgs_generate_messages_cpp"
+	@echo "... rosprolog_generate_messages_nodejs"
+	@echo "... json_prolog_msgs_generate_messages_eus"
+	@echo "... geometry_msgs_generate_messages_nodejs"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... gazebo_msgs_generate_messages_nodejs"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... tf_generate_messages_nodejs"
 	@echo "... gazebo_msgs_generate_messages_cpp"
 	@echo "... tf_generate_messages_eus"
@@ -1332,56 +1562,50 @@ help:
 	@echo "... gazebo_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... tf_generate_messages_cpp"
+	@echo "... direct_percept_node"
 	@echo "... std_srvs_generate_messages_py"
-	@echo "... world_percept_assig_generate_messages"
-	@echo "... world_percept_assig_generate_messages_eus"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... world_percept_assig_gencpp"
-	@echo "... world_percept_assig_genlisp"
-	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... world_percept_assig_generate_messages_py"
+	@echo "... std_srvs_generate_messages_eus"
+	@echo "... tf_generate_messages_lisp"
+	@echo "... percept_node"
+	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... world_percept_assig.owl"
+	@echo "... world_percept_assig_geneus"
+	@echo "... actionlib_generate_messages_eus"
+	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... _world_percept_assig_generate_messages_check_deps_SetInitTiagoPose"
 	@echo "... world_percept_assig_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... world_percept_assig_geneus"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... percept_node"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... world_percept_assig_generate_messages_nodejs"
-	@echo "... gazebo_msgs_generate_messages_nodejs"
-	@echo "... trajectory_msgs_generate_messages_eus"
-	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... std_srvs_generate_messages_eus"
-	@echo "... world_percept_assig_generate_messages_py"
-	@echo "... tf2_msgs_generate_messages_py"
-	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_eus"
 	@echo "... trajectory_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_py"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... gazebo_msgs_generate_messages_eus"
-	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_py"
-	@echo "... actionlib_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... world_percept_assig_gencpp"
+	@echo "... world_percept_assig_genlisp"
+	@echo "... map_generator_node"
 	@echo "... actionlib_msgs_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... tf_generate_messages_py"
+	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_eus"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... world_percept_assig_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... _world_percept_assig_generate_messages_check_deps_UpdateObjectList"
+	@echo "... world_percept_assig_generate_messages_nodejs"
 	@echo "... trajectory_msgs_generate_messages_nodejs"
 	@echo "... world_percept_assig_gennodejs"
+	@echo "... world_percept_assig_generate_messages_owl"
+	@echo "... world_percept_assig_generate_messages"
+	@echo "... world_percept_assig_generate_messages_eus"
+	@echo "... world_percept_assig_genowl"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... world_percept_assig_genpy"
 .PHONY : help

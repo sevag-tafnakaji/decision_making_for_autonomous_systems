@@ -1,2 +1,2 @@
-beginner_tutorials:teleop_twist_keyboard:world_percept_assig
+beginner_tutorials:knowrob_tutorial:teleop_twist_keyboard:world_percept_assig:world_percept_assig2
 -DCATKIN_DEVEL_PREFIX=/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/devel -DCMAKE_INSTALL_PREFIX=/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/install -G Unix Makefiles

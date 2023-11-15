@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/user/exchange/ssy236_sevag/decision_making_for_autonomo
 include world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/progress.make
 
 world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList:
-	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build/world_percept_assig && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py world_percept_assig /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/Point
+	cd /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/build/world_percept_assig && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py world_percept_assig /home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion
 
 _world_percept_assig_generate_messages_check_deps_UpdateObjectList: world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList
 _world_percept_assig_generate_messages_check_deps_UpdateObjectList: world_percept_assig/CMakeFiles/_world_percept_assig_generate_messages_check_deps_UpdateObjectList.dir/build.make

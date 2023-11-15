@@ -9,6 +9,7 @@ find_package(gencpp REQUIRED)
 find_package(geneus REQUIRED)
 find_package(genlisp REQUIRED)
 find_package(gennodejs REQUIRED)
+find_package(genowl REQUIRED)
 find_package(genpy REQUIRED)
 
 add_custom_target(world_percept_assig_generate_messages ALL)
@@ -19,16 +20,16 @@ add_custom_target(world_percept_assig_generate_messages ALL)
 
 get_filename_component(_filename "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv" NAME_WE)
 add_custom_target(_world_percept_assig_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "world_percept_assig" "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv" "geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "world_percept_assig" "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv" "geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv" NAME_WE)
 add_custom_target(_world_percept_assig_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "world_percept_assig" "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv" "geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "world_percept_assig" "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv" "geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
 #
-#  langs = gencpp;geneus;genlisp;gennodejs;genpy
+#  langs = gencpp;geneus;genlisp;gennodejs;genowl;genpy
 #
 
 ### Section generating for lang: gencpp
@@ -38,13 +39,13 @@ add_custom_target(_world_percept_assig_generate_messages_check_deps_${_filename}
 _generate_srv_cpp(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/world_percept_assig
 )
 _generate_srv_cpp(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/world_percept_assig
 )
 
@@ -79,13 +80,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS world_percept_assig_generate_messag
 _generate_srv_eus(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/world_percept_assig
 )
 _generate_srv_eus(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/world_percept_assig
 )
 
@@ -120,13 +121,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS world_percept_assig_generate_messag
 _generate_srv_lisp(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/world_percept_assig
 )
 _generate_srv_lisp(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/world_percept_assig
 )
 
@@ -161,13 +162,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS world_percept_assig_generate_messag
 _generate_srv_nodejs(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/world_percept_assig
 )
 _generate_srv_nodejs(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/world_percept_assig
 )
 
@@ -195,6 +196,47 @@ add_dependencies(world_percept_assig_gennodejs world_percept_assig_generate_mess
 # register target for catkin_package(EXPORTED_TARGETS)
 list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS world_percept_assig_generate_messages_nodejs)
 
+### Section generating for lang: genowl
+### Generating Messages
+
+### Generating Services
+_generate_srv_owl(world_percept_assig
+  "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genowl_INSTALL_DIR}/world_percept_assig
+)
+_generate_srv_owl(world_percept_assig
+  "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genowl_INSTALL_DIR}/world_percept_assig
+)
+
+### Generating Module File
+_generate_module_owl(world_percept_assig
+  ${CATKIN_DEVEL_PREFIX}/${genowl_INSTALL_DIR}/world_percept_assig
+  "${ALL_GEN_OUTPUT_FILES_owl}"
+)
+
+add_custom_target(world_percept_assig_generate_messages_owl
+  DEPENDS ${ALL_GEN_OUTPUT_FILES_owl}
+)
+add_dependencies(world_percept_assig_generate_messages world_percept_assig_generate_messages_owl)
+
+# add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv" NAME_WE)
+add_dependencies(world_percept_assig_generate_messages_owl _world_percept_assig_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv" NAME_WE)
+add_dependencies(world_percept_assig_generate_messages_owl _world_percept_assig_generate_messages_check_deps_${_filename})
+
+# target for backward compatibility
+add_custom_target(world_percept_assig_genowl)
+add_dependencies(world_percept_assig_genowl world_percept_assig_generate_messages_owl)
+
+# register target for catkin_package(EXPORTED_TARGETS)
+list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS world_percept_assig_generate_messages_owl)
+
 ### Section generating for lang: genpy
 ### Generating Messages
 
@@ -202,13 +244,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS world_percept_assig_generate_messag
 _generate_srv_py(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/UpdateObjectList.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/world_percept_assig
 )
 _generate_srv_py(world_percept_assig
   "/home/user/exchange/ssy236_sevag/decision_making_for_autonomous_systems/src/world_percept_assig/srv/SetInitTiagoPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/world_percept_assig
 )
 
@@ -292,6 +334,20 @@ if(TARGET std_msgs_generate_messages_nodejs)
 endif()
 if(TARGET geometry_msgs_generate_messages_nodejs)
   add_dependencies(world_percept_assig_generate_messages_nodejs geometry_msgs_generate_messages_nodejs)
+endif()
+
+if(genowl_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genowl_INSTALL_DIR}/world_percept_assig)
+  # install generated code
+  install(
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genowl_INSTALL_DIR}/world_percept_assig
+    DESTINATION ${genowl_INSTALL_DIR}
+  )
+endif()
+if(TARGET std_msgs_generate_messages_owl)
+  add_dependencies(world_percept_assig_generate_messages_owl std_msgs_generate_messages_owl)
+endif()
+if(TARGET geometry_msgs_generate_messages_owl)
+  add_dependencies(world_percept_assig_generate_messages_owl geometry_msgs_generate_messages_owl)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/world_percept_assig)
